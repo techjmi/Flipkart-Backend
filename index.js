@@ -12,7 +12,7 @@ const corsOption={
     // crendetials:true
     credentials: true 
 }
-app.use(cors(corsOption))  
+app.use(cors())  
 
 app.use(express.json());
 const PORT=process.env.PORT||4000
